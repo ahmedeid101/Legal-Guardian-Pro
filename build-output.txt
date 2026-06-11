@@ -1,0 +1,236 @@
+﻿
+> build
+> vite build
+
+[90m[[90mnitro:vercel[90m][39m [36mΓä╣[39m Using [36mnodejs22.x[39m runtime.
+[90m[[90mnitro:vercel[90m][39m [36mΓä╣[39m Using [36mweb[39m entry format.
+[36mvite v7.3.5 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 1925 modules transformed.
+rendering chunks...
+computing gzip size...
+[2m.vercel/output/static/[22m[32massets/hany-CNnVg2Pp.png         [39m[1m[2m1,074.21 kB[22m[1m[22m
+[2m.vercel/output/static/[22m[35massets/styles-B78XkqVo.css       [39m[1m[2m   79.94 kB[22m[1m[22m[2m Γöé gzip:  13.60 kB[22m
+[2m.vercel/output/static/[22m[36massets/hany-tN5-6C0V.js          [39m[1m[2m    0.05 kB[22m[1m[22m[2m Γöé gzip:   0.07 kB[22m
+[2m.vercel/output/static/[22m[36massets/scale-DrXOSqoh.js         [39m[1m[2m    0.45 kB[22m[1m[22m[2m Γöé gzip:   0.28 kB[22m
+[2m.vercel/output/static/[22m[36massets/star-ClhkkrAw.js          [39m[1m[2m    0.82 kB[22m[1m[22m[2m Γöé gzip:   0.39 kB[22m
+[2m.vercel/output/static/[22m[36massets/users-D0ZbDzcM.js         [39m[1m[2m    1.36 kB[22m[1m[22m[2m Γöé gzip:   0.68 kB[22m
+[2m.vercel/output/static/[22m[36massets/testimonials-DrgGXQVQ.js  [39m[1m[2m    2.59 kB[22m[1m[22m[2m Γöé gzip:   1.25 kB[22m
+[2m.vercel/output/static/[22m[36massets/services-CwFKNQVD.js      [39m[1m[2m    4.49 kB[22m[1m[22m[2m Γöé gzip:   1.95 kB[22m
+[2m.vercel/output/static/[22m[36massets/about-DERJpx1q.js         [39m[1m[2m    4.56 kB[22m[1m[22m[2m Γöé gzip:   1.95 kB[22m
+[2m.vercel/output/static/[22m[36massets/Layout-DYB3HE8K.js        [39m[1m[2m    7.31 kB[22m[1m[22m[2m Γöé gzip:   2.76 kB[22m
+[2m.vercel/output/static/[22m[36massets/index-BVik6CVe.js         [39m[1m[2m    8.80 kB[22m[1m[22m[2m Γöé gzip:   2.91 kB[22m
+[2m.vercel/output/static/[22m[36massets/contact-BXONcwf0.js       [39m[1m[2m   57.87 kB[22m[1m[22m[2m Γöé gzip:  14.03 kB[22m
+[2m.vercel/output/static/[22m[36massets/index-BCJqfPro.js         [39m[1m[2m  351.55 kB[22m[1m[22m[2m Γöé gzip: 111.57 kB[22m
+[32mΓ£ô built in 7.61s[39m
+[36mvite v7.3.5 [32mbuilding ssr environment for production...[36m[39m
+transforming...
+node.exe : [33m"createRequestHandler", "defineHandlerCallback", 
+"transformPipeableStreamWithRouter" and "transformReadableStreamWithRouter" 
+are imported from external module "@tanstack/router-core/ssr/server" but never 
+used in "node_modules/@tanstack/start-server-core/dist/esm/index.js".[39m
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Users\M BELAL\AppData\Roamin ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([33m"createReq...index.js".[39m 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[33m"RawStream" is imported from external module "@tanstack/router-core" but 
+never used in 
+"node_modules/@tanstack/start-client-core/dist/esm/index.js".[39m
+[33m"hydrate" and "json" are imported from external module 
+"@tanstack/router-core/ssr/client" but never used in 
+"node_modules/@tanstack/start-client-core/dist/esm/index.js".[39m
+[32mΓ£ô[39m 70 modules transformed.
+rendering chunks...
+[2mnode_modules/.nitro/vite/services/ssr/[22m[32massets/hany-CNnVg2Pp.png                       [39m[1m[2m1,074.21 kB[22m[1m[22m
+[2mnode_modules/.nitro/vite/services/ssr/[22m[35massets/styles-B78XkqVo.css                     [39m[1m[2m   79.94 kB[22m[1m[22m
+[2mnode_modules/.nitro/vite/services/ssr/[22m[36massets/hany-C90uUbvp.js                        [39m[1m[2m    0.08 kB[22m[1m[22m
+[2mnode_modules/.nitro/vite/services/ssr/[22m[36massets/empty-plugin-adapters-BFgPZ6_d.js       [39m[1m[2m    0.13 kB[22m[1m[22m
+[2mnode_modules/.nitro/vite/services/ssr/[22m[36massets/_tanstack-start-manifest_v-CJbYLFqb.js  [39m[1m[2m    1.64 kB[22m[1m[22m
+[2mnode_modules/.nitro/vite/services/ssr/[22m[36massets/start-CNcNq34K.js                       [39m[1m[2m    1.71 kB[22m[1m[22m
+[2mnode_modules/.nitro/vite/services/ssr/[22m[36mindex.js                                       [39m[1m[2m    3.34 kB[22m[1m[22m
+[2mnode_modules/.nitro/vite/services/ssr/[22m[36massets/testimonials-CKIxSxPV.js                [39m[1m[2m    3.35 kB[22m[1m[22m
+[2mnode_modules/.nitro/vite/services/ssr/[22m[36massets/services-8xq7RiEH.js                    [39m[1m[2m    4.83 kB[22m[1m[22m
+[2mnode_modules/.nitro/vite/services/ssr/[22m[36massets/about-DOVsdkUO.js                       [39m[1m[2m    5.28 kB[22m[1m[22m
+[2mnode_modules/.nitro/vite/services/ssr/[22m[36massets/contact-Dn7X-dnE.js                     [39m[1m[2m    6.72 kB[22m[1m[22m
+[2mnode_modules/.nitro/vite/services/ssr/[22m[36massets/Layout-CwEbh6Z-.js                      [39m[1m[2m    8.04 kB[22m[1m[22m
+[2mnode_modules/.nitro/vite/services/ssr/[22m[36massets/router-CjCcpO-9.js                      [39m[1m[2m   10.33 kB[22m[1m[22m
+[2mnode_modules/.nitro/vite/services/ssr/[22m[36massets/index-CMuka5V4.js                       [39m[1m[2m   11.86 kB[22m[1m[22m
+[2mnode_modules/.nitro/vite/services/ssr/[22m[36massets/server-CsJvsqyO.js                      [39m[1m[2m   58.45 kB[22m[1m[22m
+[32mΓ£ô built in 1.03s[39m
+
+[90m[[90mnitro[90m][39m [35mΓùÉ[39m Building [[35mNitro[39m] [2m(preset: [36mvercel[39m, compatibility: [36m2026-06-11[39m)[22m
+[90m[[90mnitro[90m][39m [32mΓ£ö[39m Generated public [36m.vercel/output/static[39m
+[36mvite v7.3.5 [32mbuilding nitro environment for production...[36m[39m
+transforming...
+[33mnode_modules/@tanstack/react-router/dist/esm/index.js (1:0): Module level 
+directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-router/dist/esm/index.js" was ignored.[39m
+[33mnode_modules/@tanstack/react-router/dist/esm/utils.js (1:0): Module level 
+directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-router/dist/esm/utils.js" was ignored.[39m
+[33mnode_modules/@tanstack/react-router/dist/esm/useNavigate.js (1:0): Module 
+level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-router/dist/esm/useNavigate.js" was ignored.[39m
+[33mnode_modules/@tanstack/react-router/dist/esm/ClientOnly.js (1:0): Module 
+level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-router/dist/esm/ClientOnly.js" was ignored.[39m
+[33mnode_modules/@tanstack/react-router/dist/esm/RouterProvider.js (1:0): 
+Module level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-router/dist/esm/RouterProvider.js" was 
+ignored.[39m
+[33mnode_modules/@tanstack/react-router/dist/esm/useBlocker.js (1:0): Module 
+level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-router/dist/esm/useBlocker.js" was ignored.[39m
+[33mnode_modules/@tanstack/react-router/dist/esm/useLocation.js (1:0): Module 
+level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-router/dist/esm/useLocation.js" was ignored.[39m
+[33mnode_modules/@tanstack/react-router/dist/esm/HeadContent.js (1:0): Module 
+level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-router/dist/esm/HeadContent.js" was ignored.[39m
+[33mnode_modules/@tanstack/react-router/dist/esm/useRouterState.js (1:0): 
+Module level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-router/dist/esm/useRouterState.js" was 
+ignored.[39m
+[33mnode_modules/@tanstack/react-router/dist/esm/Matches.js (1:0): Module 
+level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-router/dist/esm/Matches.js" was ignored.[39m
+[33mnode_modules/@tanstack/react-router/dist/esm/useRouter.js (1:0): Module 
+level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-router/dist/esm/useRouter.js" was ignored.[39m
+[33mnode_modules/@tanstack/react-router/dist/esm/CatchBoundary.js (1:0): 
+Module level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-router/dist/esm/CatchBoundary.js" was 
+ignored.[39m
+[33mnode_modules/@tanstack/react-router/dist/esm/Asset.js (1:0): Module level 
+directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-router/dist/esm/Asset.js" was ignored.[39m
+[33mnode_modules/@tanstack/react-router/dist/esm/useMatch.js (1:0): Module 
+level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-router/dist/esm/useMatch.js" was ignored.[39m
+[33mnode_modules/@tanstack/react-router/dist/esm/Match.js (1:0): Module level 
+directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-router/dist/esm/Match.js" was ignored.[39m
+[33mnode_modules/@tanstack/react-router/dist/esm/link.js (1:0): Module level 
+directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-router/dist/esm/link.js" was ignored.[39m
+[33mnode_modules/@tanstack/react-query/build/modern/useQueries.js (1:0): 
+Module level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-query/build/modern/useQueries.js" was 
+ignored.[39m
+[33mnode_modules/@tanstack/react-query/build/modern/useQuery.js (1:0): Module 
+level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-query/build/modern/useQuery.js" was ignored.[39m
+[33mnode_modules/@tanstack/react-query/build/modern/QueryClientProvider.js 
+(1:0): Module level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-query/build/modern/QueryClientProvider.js" was 
+ignored.[39m
+[33mnode_modules/@tanstack/react-query/build/modern/HydrationBoundary.js 
+(1:0): Module level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-query/build/modern/HydrationBoundary.js" was 
+ignored.[39m
+[33mnode_modules/@tanstack/react-query/build/modern/QueryErrorResetBoundary.js
+ (1:0): Module level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-query/build/modern/QueryErrorResetBoundary.js" 
+was ignored.[39m
+[33mnode_modules/@tanstack/react-query/build/modern/useMutationState.js 
+(1:0): Module level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-query/build/modern/useMutationState.js" was 
+ignored.[39m
+[33mnode_modules/@tanstack/react-query/build/modern/useIsFetching.js (1:0): 
+Module level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-query/build/modern/useIsFetching.js" was 
+ignored.[39m
+[33mnode_modules/@tanstack/react-query/build/modern/useMutation.js (1:0): 
+Module level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-query/build/modern/useMutation.js" was 
+ignored.[39m
+[33mnode_modules/@tanstack/react-query/build/modern/useInfiniteQuery.js 
+(1:0): Module level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-query/build/modern/useInfiniteQuery.js" was 
+ignored.[39m
+[33mnode_modules/@tanstack/react-query/build/modern/IsRestoringProvider.js 
+(1:0): Module level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-query/build/modern/IsRestoringProvider.js" was 
+ignored.[39m
+[33mnode_modules/@tanstack/react-router/dist/esm/routerContext.js (1:0): 
+Module level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-router/dist/esm/routerContext.js" was 
+ignored.[39m
+[33mnode_modules/@tanstack/react-query/build/modern/useSuspenseQuery.js 
+(1:0): Module level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-query/build/modern/useSuspenseQuery.js" was 
+ignored.[39m
+[33mnode_modules/@tanstack/react-router/dist/esm/matchContext.js (1:0): 
+Module level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-router/dist/esm/matchContext.js" was 
+ignored.[39m
+[33mnode_modules/@tanstack/react-router/dist/esm/Transitioner.js (1:0): 
+Module level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-router/dist/esm/Transitioner.js" was 
+ignored.[39m
+[33mnode_modules/@tanstack/react-query/build/modern/useSuspenseQueries.js 
+(1:0): Module level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-query/build/modern/useSuspenseQueries.js" was 
+ignored.[39m
+[33mnode_modules/@tanstack/react-query/build/modern/useSuspenseInfiniteQuery.j
+s (1:0): Module level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-query/build/modern/useSuspenseInfiniteQuery.js" 
+was ignored.[39m
+[33mnode_modules/@tanstack/react-query/build/modern/errorBoundaryUtils.js 
+(1:0): Module level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-query/build/modern/errorBoundaryUtils.js" was 
+ignored.[39m
+[33mnode_modules/@tanstack/react-query/build/modern/useBaseQuery.js (1:0): 
+Module level directives cause errors when bundled, "use client" in 
+"node_modules/@tanstack/react-query/build/modern/useBaseQuery.js" was 
+ignored.[39m
+[32mΓ£ô[39m 1940 modules transformed.
+rendering chunks...
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/hookable.mjs                       [39m[1m[2m  0.00 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/ufo.mjs                            [39m[1m[2m  0.00 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/ohash.mjs                          [39m[1m[2m  0.00 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/ocache.mjs                         [39m[1m[2m  0.00 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/unstorage.mjs                      [39m[1m[2m  0.00 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/tanstack__store.mjs                [39m[1m[2m  0.00 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/use-sync-external-store.mjs        [39m[1m[2m  0.00 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/tanstack__react-store.mjs          [39m[1m[2m  0.02 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_ssr/hany-C90uUbvp.mjs                   [39m[1m[2m  0.08 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_ssr/empty-plugin-adapters-BFgPZ6_d.mjs  [39m[1m[2m  0.13 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/rou3.mjs                           [39m[1m[2m  0.21 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/tanstack__react-query.mjs          [39m[1m[2m  0.46 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_chunks/ssr-renderer.mjs                 [39m[1m[2m  0.51 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/cookie-es.mjs                      [39m[1m[2m  1.46 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/seroval-plugins.mjs                [39m[1m[2m  1.47 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_tanstack-start-manifest_v-CJbYLFqb.mjs  [39m[1m[2m  1.64 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_ssr/start-CNcNq34K.mjs                  [39m[1m[2m  1.94 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/isbot.mjs                          [39m[1m[2m  2.78 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_ssr/index.mjs                           [39m[1m[2m  3.34 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_ssr/testimonials-CKIxSxPV.mjs           [39m[1m[2m  4.06 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_ssr/services-8xq7RiEH.mjs               [39m[1m[2m  5.67 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/tanstack__history.mjs              [39m[1m[2m  5.99 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_ssr/about-DOVsdkUO.mjs                  [39m[1m[2m  6.29 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36mindex.mjs                                [39m[1m[2m  7.34 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_ssr/contact-Dn7X-dnE.mjs                [39m[1m[2m  8.04 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/srvx.mjs                           [39m[1m[2m  8.77 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_ssr/Layout-CwEbh6Z-.mjs                 [39m[1m[2m  9.08 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/h3-v2.mjs                          [39m[1m[2m  9.98 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/lucide-react.mjs                   [39m[1m[2m 10.11 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_ssr/router-CjCcpO-9.mjs                 [39m[1m[2m 11.23 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_ssr/index-CMuka5V4.mjs                  [39m[1m[2m 13.65 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/h3.mjs                             [39m[1m[2m 14.32 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/react.mjs                          [39m[1m[2m 19.26 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/tanstack__react-router.mjs         [39m[1m[2m 42.23 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/seroval.mjs                        [39m[1m[2m 48.40 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/tanstack__query-core.mjs           [39m[1m[2m 54.77 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_ssr/server-CsJvsqyO.mjs                 [39m[1m[2m 58.02 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/zod.mjs                            [39m[1m[2m105.83 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/tanstack__router-core.mjs          [39m[1m[2m171.39 kB[22m[1m[22m
+[2m.vercel/output/functions/__server.func/[22m[36m_libs/react-dom.mjs                      [39m[1m[33m509.03 kB[39m[22m
+[32mΓ£ô built in 8.96s[39m
+[36mΓä╣[39m Generated [36m.vercel/output/nitro.json[39m
+
+[90m[[90mnitro[90m][39m [32mΓ£ö[39m You can preview this build using [36mnpx vite preview[39m
+[90m[[90mnitro[90m][39m [32mΓ£ö[39m You can deploy this build using [36mnpx nitro deploy --prebuilt[39m
