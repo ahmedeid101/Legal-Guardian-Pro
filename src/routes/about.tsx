@@ -20,7 +20,7 @@ function About() {
     <SiteLayout>
       <section className="mx-auto max-w-7xl px-6 lg:px-10 pt-16 pb-20 grid lg:grid-cols-12 gap-14 items-start">
         <div className="lg:col-span-5">
-          <div className="relative aspect-[4/5] max-w-md">
+          <div className="relative aspect-4/5 max-w-md">
             <div className="absolute -inset-4 border border-gold/40" />
             <img src={hanyAsset} alt="Hany Elgareh" className="relative w-full h-full object-cover shadow-elegant" />
           </div>

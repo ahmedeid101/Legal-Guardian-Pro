@@ -35,7 +35,7 @@ function Home() {
     <SiteLayout>
       {/* HERO */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top_right,_color-mix(in_oklab,_var(--color-gold)_15%,_transparent),_transparent_60%)]" />
+        <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top_right,color-mix(in_oklab,var(--color-gold)_15%,transparent),transparent_60%)]" />
         <div className="mx-auto max-w-7xl px-6 lg:px-10 pt-16 lg:pt-24 pb-20 grid lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-7">
             <p className="eyebrow"><span className="gold-rule mr-3" />Attorney &amp; Legal Counsel</p>
@@ -78,7 +78,7 @@ function Home() {
           </div>
 
           <div className="lg:col-span-5 relative">
-            <div className="relative aspect-[4/5] max-w-md mx-auto">
+            <div className="relative aspect-4/5 max-w-md mx-auto">
               <div className="absolute -inset-4 border border-gold/40" />
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gold/90 -z-10" />
               <img
@@ -179,7 +179,7 @@ function Home() {
       {/* CTA */}
       <section className="mx-auto max-w-7xl px-6 lg:px-10 pb-24">
         <div className="relative overflow-hidden border border-gold/40 bg-primary text-primary-foreground p-12 md:p-20">
-          <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_top_right,_var(--color-gold),_transparent_50%)]" />
+          <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_top_right,var(--color-gold),transparent_50%)]" />
           <div className="relative grid md:grid-cols-2 gap-10 items-center">
             <div>
               <h2 className="font-serif text-4xl md:text-5xl leading-tight">
